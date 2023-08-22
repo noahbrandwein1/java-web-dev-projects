@@ -13,9 +13,11 @@ public class Area {
         System.out.println("Enter a radius");
 
         Double radius = input.nextDouble();
-        System.out.println("The area is: " + Math.PI * radius * radius);
+        System.out.println("The area is: " + Circle.getArea(radius));
+        input.close();
 
 
 
     }
+
 }
