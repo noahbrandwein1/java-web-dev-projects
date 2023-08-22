@@ -17,14 +17,16 @@ public class Area {
         if (radius < 0){
             System.out.println("Radius is negative");
             return;
-        } else if (!(radius instanceof Double)) {
-            System.out.println("A number is needed.");
-            input.close();
-            return;
+        }
+        System.out.println("The area is: " + Circle.getArea(radius));
 
         }
+        else
 
-        System.out.println("The area is: " + Circle.getArea(radius));
+    {
+        System.out.println("Must enter a number. ");
+    }
+
         input.close();
 
     }
