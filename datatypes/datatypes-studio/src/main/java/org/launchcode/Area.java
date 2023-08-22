@@ -1,19 +1,21 @@
+// Recall that the area of a circle is A = pi * r * r
+// where pi is 3.14 and r is the radius.
+
 package org.launchcode;
 
-import java.util.Scanner;
+import java.sql.SQLOutput;
+import java.util.*;
 
 public class Area {
     public static  void  main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a radius: ");
-        double radius = scanner.nextDouble();
+        Scanner  input = new Scanner(System.in);
+        System.out.println("Enter a radius");
 
-        double area = Circle.getArea(radius);
+        Double radius = input.nextDouble();
+        System.out.println("The area is: " + Math.PI * radius * radius);
 
-        System.out.println("The area of a circle of radius " + radius + " is " + area);
 
-        scanner.close();
 
     }
 }
