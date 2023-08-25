@@ -25,7 +25,7 @@ public class countingCharacters {
 
         for(char countKey : countChar.keySet()) {
             int getKey = countChar.get(countKey);
-            System.out.println(countKey + ": " + getKey);
+            System.out.println(countKey + ": " + getKey);;
         }
 
 
