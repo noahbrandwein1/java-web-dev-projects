@@ -14,7 +14,6 @@ public class Main {
         myCd.writeData();
         myCd.readData();
         myCd.reportInformation();
-        myCd.customMethod();
 
         System.out.println();
 
@@ -23,7 +22,6 @@ public class Main {
         myDVD.writeData();
         myDVD.readData();
         myDVD.reportInformation();
-        myDVD.customMethod();
 
     }
 }

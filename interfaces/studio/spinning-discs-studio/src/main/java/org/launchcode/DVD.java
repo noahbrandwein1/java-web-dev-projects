@@ -6,11 +6,6 @@ public class DVD extends BaseDisc implements OpticalDisc {
     }
 
     @Override
-    void customMethod() {
-        System.out.println("This is a custom method for a DVD");
-    }
-
-    @Override
     public void spinDisc() {
         System.out.println("A DVD spins at a rate of 500 - 1600 rpm.");
 

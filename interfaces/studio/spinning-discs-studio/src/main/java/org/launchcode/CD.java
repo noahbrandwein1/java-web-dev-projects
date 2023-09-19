@@ -6,12 +6,6 @@ public class CD extends BaseDisc implements OpticalDisc {
     }
 
     @Override
-    void customMethod() {
-        System.out.println("This is a custom method for a CD");
-
-    }
-
-    @Override
     public void spinDisc() {
         System.out.println("A CD spins at a rate of 200 - 500 rpm.");
 
